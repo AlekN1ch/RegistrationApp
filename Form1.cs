@@ -81,12 +81,13 @@ namespace RegistrationApp
                 }
                 
             }
-            if (acces&&accesPas)
+            if (acces && accesPas)
             {
                 MessageBox.Show("Вход успешно совершен");
-
+                Form2 f2 = new Form2();
+                f2.Show();
             }
-            else 
+            else
             {
                 MessageBox.Show("Неверные данные");
             }

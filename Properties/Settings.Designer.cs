@@ -32,5 +32,15 @@ namespace RegistrationApp.Properties {
                 return ((string)(this["AutorizationConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\prognozir.accdb")]
+        public string prognozirConnectionString {
+            get {
+                return ((string)(this["prognozirConnectionString"]));
+            }
+        }
     }
 }
